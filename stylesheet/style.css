@@ -1,0 +1,22 @@
+/* Project Name: Clan 18 Gift Shop (C18 GS)
+Project Client: Alchemist Holdingss
+Author : James Kamau | twitter: @jameshqter| github:jameshmwangi
+*/
+body {
+  background: url("../images/purplez.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+  font-size: 90px;
+}
+#container {
+  width: 427px;
+  background: black;
+  color: white;
+  padding: 5px;
+}
