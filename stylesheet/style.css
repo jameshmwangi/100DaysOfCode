@@ -15,8 +15,9 @@ h1 {
   font-size: 90px;
 }
 #container {
-  width: 427px;
-  background: black;
+  position: relative;
+  max-width: 1260px;
+  background: palevioletred;
   color: white;
-  padding: 5px;
+  padding: 30px;
 }
