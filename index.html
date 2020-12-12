@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Indigo Gift Shop</title>
     <link rel="stylesheet" href="stylesheet/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
 </head>
 <body>
     
     <div id ="container">
-<h1>Indigo Gift shop </h1>
+        <!--day 7 changing css color to gold-->
+<h1 style="color:gold;" >Indigo Gift shop </h1>
 <h2>GiftShop</h2>
-<h2>Gift</h2>
+<h2 class="gold-text">Gift</h2>
 <ol type="I">
     <li value="7">seventh item</li>
-    <li>eighth item</li>
+    <li class ="gold-text">eighth item</li>
     <li>ninth item</li>
    </ol>
     <blockquote>
@@ -44,7 +47,7 @@
     <output name="o" for="a b"></output>
 
     <!-- Buttons-->
-    <p>The following are diffrent types of buttons. Submit, Radio and checklist.</p>
+    <p>The following are diffrent types of buttons. Submit, Radio and checkboxes.</p>
     <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
     <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
     <label for="loving"><input id="loving" type="checkbox" name="personality"> Loving</label>
@@ -52,12 +55,28 @@
     <label for="energetic"><input id="energetic" type="checkbox" name="personality"> Energetic</label><br>
     <input type="text" placeholder="cat photo URL" required>
     <button type="submit">Submit</button>
-  
+    <p>The following are diffrent types of buttons. Submit, Radio and checkboxes.</p>
+    <!--Adding checked, and value to Radioboxes and checkboxes-->
+<p> Added Checked by default, Value attribute</p>
+<label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+<label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label><br>
+<label for="loving"><input id="loving" type="checkbox" name="personality" value="loving" checked> Loving</label>
+<label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy</label>
+<label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label><br>
+<input type="text" placeholder="cat photo URL" required>
+<button type="submit">Submit</button>
    </form> 
 
+<!--The Paraghraph below is for experimenting with CSS Fonts.-->
 
-
-
+    <h3>CSS Font experimenting</h3>
+<p><i> Forest fire - Wangari Maathai story</i> </p>
+<p class="font-type"> The story of the hummingbird is about this huge forest being consumed by a fire. All the animals in the forest come out and they are transfixed as they watch the forest burning and they feel very overwhelmed, very powerless, except this little hummingbird. It says, ‘I’m going to do something about the fire!’ So it flies to the nearest stream and takes a drop of water. It puts it on the fire, and goes up and down, up and down, up and down, as fast as it can.
+  <div class="img-container-block"> <a href="https://pbs.twimg.com/media/CSPmCs9UEAQNicu?format=jpg&name=small"><img src=" images/wangarimathai.jpg" alt=" Wangari Maathai-HummingBird"> </div>
+</a>
+    
+</p>
+<p class=" font-two"> In the meantime all the other animals, much bigger animals like the elephant with a big trunk that could bring much more water, they are standing there helpless. And they are saying to the hummingbird, ‘What do you think you can do? You are too little. This fire is too big. Your wings are too little and your beak is so small that you can only bring a small drop of water at a time.’</p>
 
 
                

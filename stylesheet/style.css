@@ -21,3 +21,19 @@ h1 {
   color: white;
   padding: 30px;
 }
+/*Day 7/100  
+Learning about CSS class
+*/
+
+.gold-text {
+  color: gold;
+}
+.img-container-block {
+  text-align: center;
+}
+.font-type {
+  font-family: monospace;
+}
+.font-two {
+  font-family: "Langar", cursive;
+}
