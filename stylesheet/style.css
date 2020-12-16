@@ -1,16 +1,15 @@
 /* Project Name: Clan 18 Gift Shop (C18 GS)
 Project Client: Alchemist Holdingss
 Author : James Kamau | twitter: @jameshqter| github:jameshmwangi
-*/
 body {
   background: url("../images/purplez.jpg");
   background-position: center;
   background-attachment: fixed;
-  -webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+  -webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */ /*
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 h1 {
   font-size: 90px;
 }
@@ -36,4 +35,30 @@ Learning about CSS class
 }
 .font-two {
   font-family: "Langar", cursive;
+}
+
+/* Day 8 more elementary Css*/
+.thin-black-border {
+  border-color: black;
+  border-width: 5px;
+  border-style: dashed;
+  text-align: center;
+  border-radius: 10px;
+  width: fit-content;
+}
+.thick-black-border {
+  border-color: cyan;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10%;
+  width: fit-content;
+}
+.box-set {
+  background: #eaeaed;
+}
+.box {
+  background: #2db34a;
+  float: left;
+  margin: 1.858736059%;
+  width: 29.615861214%;
 }
